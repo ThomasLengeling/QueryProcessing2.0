@@ -15,10 +15,10 @@ void setup() {
 
   //Acreditacion
   cb = new ConfigurationBuilder();
-  cb.setOAuthConsumerKey("hWKWrL8ko4q5tJ40YfA");
-  cb.setOAuthConsumerSecret("IGecTdlWJ83gFT0xenfL4yjGBKyDF9Osez2hvsMjIg");
-  cb.setOAuthAccessToken("1668946028-3N6fy3y8zlxRrXJPkvfoM1BsD5vuddE9haCpnXg");
-  cb.setOAuthAccessTokenSecret("cKzcBfZjgJaD24ZAm4TlwQonofHELprxFD5V5u0AUQ");
+  cb.setOAuthConsumerKey("");
+  cb.setOAuthConsumerSecret("");
+  cb.setOAuthAccessToken("");
+  cb.setOAuthAccessTokenSecret("");
 
   //Make the twitter object and prepare the query
   twitter = new TwitterFactory(cb.build()).getInstance();
