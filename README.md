@@ -1,4 +1,4 @@
-TwitterProcessing2.0
+QueryProcessing2.0
 ====================
 
 
